@@ -65,7 +65,7 @@ function loadWidget(config) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				const script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/zou-zou/live2d-widget@2.3.0/asteroids.js";
+				script.src = "https://cdn.jsdelivr.net/gh/zou-zou/live2d-widget@latest/asteroids.js";
 				document.head.appendChild(script);
 			}
 		});
